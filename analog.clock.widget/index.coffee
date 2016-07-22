@@ -23,7 +23,7 @@ style: """
 		url('analog.clock.widget/'+image-folder+'/'+image-name)
 
 	top: 996px
-	left: 47px
+	left: 300px
 
 	#clock
 		position: absolute
