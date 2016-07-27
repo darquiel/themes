@@ -17,8 +17,8 @@ appearance =
 refreshFrequency: 60000            # Update every 1 minutes
 
 style: """
-  top  : 885px
-  left : 50px
+  top  : 110px
+  right : 70px
   width: #{appearance.baseFontSize * 6.0}px
 
   font-family: Helvetica Neue

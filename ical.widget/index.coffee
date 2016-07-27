@@ -13,16 +13,16 @@ command: "'ical.widget/icalBuddy' -n -nc -iep 'title,datetime' -ps '| : |' -po '
 refreshFrequency: 3600000
 
 style: """
-  top: 600px
-  left: 45px
+  top: 442px
+  right: 60px
   color: rgba(#d6d6d6, 0.9)
   font-family: -apple-system
   
   div
     display: block
     text-shadow: 0 0 1px rgba(#000, 0.5)
-    font-size: 11pt
-    font-weight: 100
+    font-size: 10pt
+    font-weight: 300
 """
 
 renderLine: (string) -> """
@@ -35,5 +35,6 @@ update: (output, domEl) ->
   $(domEl).html ''
   $(domEl).html 'No more Events Today' if output is ""
   for line in lines
-  	$(domEl).append @renderLine(line)
+    myline = line.substr(0, 30)
+    $(domEl).append @renderLine(myline)
 
