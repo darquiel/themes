@@ -59,7 +59,7 @@ style: """
 		z-index: 3
 
 	#hour
-		background: url-for('hourhand.solid.png')
+		background: url-for('hourhand.solid.l.png')
 		z-index: 2
 """
 
