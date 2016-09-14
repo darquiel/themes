@@ -10,7 +10,8 @@ command: "'ical.widget/icalBuddy' -n -nc -iep 'title,datetime' -ps '| : |' -po '
 #command: "'ical.widget/icalBuddy' -sd -nc -n eventsToday+1 2>/dev/null"
 
 # the refresh frequency is 1 hour
-refreshFrequency: 3600000
+refreshFrequency: 10000
+# refreshFrequency: 3600000
 
 style: """
   top: 442px
