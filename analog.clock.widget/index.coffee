@@ -55,11 +55,11 @@ style: """
 		z-index: 4
 
 	#min
-		background: url-for('minhand.solid.png')
+		background: url-for('minhand.hollow.png')
 		z-index: 3
 
 	#hour
-		background: url-for('hourhand.solid.png')
+		background: url-for('hourhand.hollow.png')
 		z-index: 2
 """
 
