@@ -1,6 +1,6 @@
-sundayFirstCalendar = 'cal && date "+%-m %-d %y"'
+sundayFirstCalendar = 'cal -h && date "+%-m %-d %y"'
 
-mondayFirstCalendar =  'cal | awk \'{ print " "$0; getline; print "Mo Tu We Th Fr Sa Su"; \
+mondayFirstCalendar =  'cal -h | awk \'{ print " "$0; getline; print "Mo Tu We Th Fr Sa Su"; \
 getline; if (substr($0,1,2) == " 1") print "                    1 "; \
 do { prevline=$0; if (getline == 0) exit; print " " \
 substr(prevline,4,17) " " substr($0,1,2) " "; } while (1) }\' && date "+%-m %-d %y"'
@@ -44,7 +44,7 @@ style: """
     font-weight: bold
     background: rgba(#d6d6d6, 0.3)
     border-radius: 50%
-    
+
   .grey
     color: rgba(#C0C0C0, .7)
 """
@@ -90,7 +90,7 @@ updateBody: (rows, table) ->
     lengths[2] = 29
 
   for week, i in rows
-    days = week.split(/\s+/).filter (day) -> day.length > 0
+    days = week.split(/\s+/).filter((day) -> day.length > 0)
     tableRow = $("<tr></tr>").appendTo(tbody)
 
     if i == 0 and days.length < 7
@@ -103,6 +103,7 @@ updateBody: (rows, table) ->
           cell = $("<td></td>").appendTo(tableRow)
 
     for day in days
+      day = day.replace(/\D/g, '')
       cell = $("<td>#{day}</td>").appendTo(tableRow)
       cell.addClass("today") if day == date
 
