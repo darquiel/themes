@@ -63,7 +63,7 @@ style: """
 
   .icon
     font-family: Weather
-    font-size: 54px
+    font-size: 45px
     line-height: 65px
     position: absolute
     left: 0

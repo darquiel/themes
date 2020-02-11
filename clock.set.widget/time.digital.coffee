@@ -1,5 +1,5 @@
 # format = '%d %a %l:%M %p'
-format = '%H:%M:%S'
+format = '%H:%M'
 
 command: "date +\"#{format}\""
 
