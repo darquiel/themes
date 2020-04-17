@@ -14,8 +14,8 @@ refreshFrequency: 10000
 # refreshFrequency: 3600000
 
 style: """
-  top: 442px
-  right: 50px
+  top: 430px
+  right: 65px
   color: rgba(#d6d6d6, 0.9)
   font-family: -apple-system
   

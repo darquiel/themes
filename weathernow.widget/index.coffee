@@ -43,8 +43,8 @@ renderForecast: (data) ->
   """
 
 style: """
-  top  : 150px
-  right : 150px
+  top  : 174px
+  right : 65px
   color: #fff
   color: rgba(255,255,255,0.7)
   font-family: Helvetica Neue
