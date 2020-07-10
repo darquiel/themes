@@ -9,7 +9,8 @@ options =
   # Set the start date to count from.
   theDate     : "03/16/2020"
   # Set the opening and closing phrase
-  startPhrase : "Shelter in place Day "  
+  startPhrase : "Shelter in place "
+  endPhrase : "days"  
   
 options : options
             
@@ -28,13 +29,13 @@ update: (output, dom) ->
   # Get our calculation results.
   values = output.slice(0,-1).split(" ")
 
-  time_str = options.startPhrase + ' ' + values[0] ;
+  time_str = options.startPhrase + ' ' + values[0] + ' ' + options.endPhrase;
     
   $(dom).find("#time").html(time_str)
         
 style: """
-  top: 119px
-  right: 145px
+  bottom: 37px
+  right: 20px
   padding: 1.0em 0
   height: 0em
   width: 50%
