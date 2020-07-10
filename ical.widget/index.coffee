@@ -4,7 +4,7 @@
 # Using icalBuddy found here: http://hasseg.org/icalBuddy/
 
 # This command shows all of your events for today and tomorrow
-command: "'ical.widget/icalBuddy' -n -nc -iep 'title,datetime' -ps '| : |' -po 'datetime,title' -tf %H:%M -eed eventsToday 2>devnull"
+command: "'ical.widget/icalBuddy' -ec 'Found in Natural Language' -n -nc -iep 'title,datetime' -ps '| : |' -po 'datetime,title' -tf %H:%M -eed eventsToday 2>devnull"
 
 # Uncomment this command if you want to not show which calendar the events are for
 #command: "'ical.widget/icalBuddy' -sd -nc -n eventsToday+1 2>/dev/null"
@@ -14,8 +14,8 @@ refreshFrequency: 10000
 # refreshFrequency: 3600000
 
 style: """
-  top: 442px
-  right: 50px
+  top: 430px
+  right: 43px
   color: rgba(#d6d6d6, 0.9)
   font-family: -apple-system
   
