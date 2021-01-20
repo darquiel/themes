@@ -14,8 +14,8 @@ refreshFrequency: 10000
 # refreshFrequency: 3600000
 
 style: """
-  top: 430px
-  right: 43px
+  top: 450px
+  right: 45px
   color: rgba(#d6d6d6, 0.9)
   font-family: -apple-system
   
@@ -36,6 +36,7 @@ update: (output, domEl) ->
   $(domEl).html ''
   $(domEl).html 'No more Events Today' if output is ""
   for line in lines
+    line = line + '                                                        '
     myline = line.substr(0, 30)
     $(domEl).append @renderLine(myline)
 

@@ -34,7 +34,7 @@ update: (output, dom) ->
   $(dom).find("#time").html(time_str)
         
 style: """
-  bottom: 37px
+  bottom: 79px
   right: 20px
   padding: 1.0em 0
   height: 0em
