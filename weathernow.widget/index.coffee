@@ -1,6 +1,6 @@
 # TODO: Add your location and forecast.io api key below
 apiKey   = 'ec382d4e889114208c9bcc1a835f303c'
-location = '37.581978,-121.962073'
+location = '37.813099,-121.920096'
 
 exclude  = "hourly,alerts,flags"
 command: "curl -s 'https://api.forecast.io/forecast/#{apiKey}/#{location}?units=auto&exclude=#{exclude}'"
