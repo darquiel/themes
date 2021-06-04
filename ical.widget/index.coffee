@@ -14,16 +14,16 @@ refreshFrequency: 10000
 # refreshFrequency: 3600000
 
 style: """
-  top: 480px
-  right: 62px
+  top: 395px
+  right: 75px
   color: rgba(#d6d6d6, 0.9)
   font-family: -apple-system
-  
+  font-size: 10pt
+  font-weight: 300
+
   div
     display: block
     text-shadow: 0 0 1px rgba(#000, 0.5)
-    font-size: 10pt
-    font-weight: 300
 """
 
 renderLine: (string) -> """
