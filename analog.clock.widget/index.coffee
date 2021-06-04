@@ -30,7 +30,7 @@ style: """
 		width: clock-size
 		height: clock-size
 		margin: 0 auto 0 auto
-		background: url-for('clockface.white.a.1.png') no-repeat
+		background: url-for('clockface.png') no-repeat
 		list-style: none
 
 	#clock-label
@@ -55,11 +55,11 @@ style: """
 		z-index: 4
 
 	#min
-		background: url-for('minhand.solid.png')
+		background: url-for('minhand.png')
 		z-index: 3
 
 	#hour
-		background: url-for('hourhand.solid.png')
+		background: url-for('hourhand.png')
 		z-index: 2
 """
 
