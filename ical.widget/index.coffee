@@ -18,7 +18,7 @@ style: """
   right: 75px
   color: rgba(#d6d6d6, 0.9)
   font-family: -apple-system
-  font-size: 10pt
+  font-size: 9pt
   font-weight: 300
 
   div
@@ -37,6 +37,6 @@ update: (output, domEl) ->
   $(domEl).html 'No more Events Today' if output is ""
   for line in lines
     line = line + '                                                        '
-    myline = line.substr(0, 30)
+    myline = line.substr(0, 25)
     $(domEl).append @renderLine(myline)
 
