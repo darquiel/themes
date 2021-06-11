@@ -22,8 +22,8 @@ style: """
 	url-for(image-name)
 		url('analog.clock.widget/'+image-folder+'/'+image-name)
 
-	top: 4px
-	right: 160px
+	top: 8px
+	right: 145px
 
 	#clock
 		position: absolute
