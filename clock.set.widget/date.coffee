@@ -16,7 +16,7 @@ style: """
   color: rgba(#d6d6d6, 0.8)
   font-family: -apple-system
   right: 148px
-  top: 26px
+  top: 24px
 
   h1
     font-size: 54pt
