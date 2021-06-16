@@ -13,8 +13,8 @@ otherMonths: true
 refreshFrequency: 3600000
 
 style: """
-  top: 255px
-  right: 28px
+  top: 225px
+  right: 8px
   color: rgba(#d6d6d6, 0.9)
   font-family: -apple-system
 

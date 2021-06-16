@@ -12,8 +12,8 @@ render: (output) -> """
 style: """
   color: rgba(#d6d6d6, 0.8)
   font-family: -apple-system
-  right: 250px
-  top: 78px
+  right: 156px
+  top: 136px
 
   h1
     font-size: 13pt
