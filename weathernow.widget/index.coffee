@@ -43,7 +43,7 @@ renderForecast: (data) ->
   """
 
 style: """
-  top  : 163px
+  top  : 170px
   right : 21px
   color: #fff
   color: rgba(255,255,255,0.7)
