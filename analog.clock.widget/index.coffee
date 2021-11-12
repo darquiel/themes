@@ -30,7 +30,7 @@ style: """
 		width: clock-size
 		height: clock-size
 		margin: 0 auto 0 auto
-		background: url-for('clockface.png') no-repeat
+		background: url-for('clockface2.png') no-repeat
 		list-style: none
 
 	#clock-label
