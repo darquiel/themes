@@ -4,7 +4,7 @@
 # Using icalBuddy found here: http://hasseg.org/icalBuddy/
 
 # This command shows all of your events for today and tomorrow
-command: "'ical.widget/icalBuddy' -ec 'Found in Natural Language' -n -nc -iep 'title,datetime' -ps '| : |' -po 'datetime,title' -tf %H:%M -eed eventsToday 2>devnull"
+command: "'ical.widget/icalBuddy' -ec '5F8F5CE1-2042-4A70-BE4F-6BFE9905BD93,1172DEEE-FA55-4182-8873-ED0ED8C8E623,E4889B22-59B5-4D98-A9B4-6F72E8E2AF86' -n -nc -iep 'title,datetime' -ps '| : |' -po 'datetime,title' -tf %H:%M -eed eventsToday 2>devnull"
 
 # Uncomment this command if you want to not show which calendar the events are for
 #command: "'ical.widget/icalBuddy' -sd -nc -n eventsToday+1 2>/dev/null"

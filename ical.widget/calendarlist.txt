@@ -1,0 +1,33 @@
+• Birthdays
+  type: Birthday
+  UID: 134194ED-6DAE-4F0E-89F6-61C4AE2B906E
+• Siri Suggestions
+  type: Local
+  UID: F82EE16C-B4C6-4836-B367-F79F6A9374AB
+• Found in Natural Language
+  type: Local
+  UID: 5F8F5CE1-2042-4A70-BE4F-6BFE9905BD93
+• US Holidays
+  type: Subscription
+  UID: A8D09656-D8B1-4A40-A152-4C34A4329C7C
+• Personal
+  type: CalDAV
+  UID: 0484ED13-3BE2-4DA0-9474-DD4118BBC63F
+• Family
+  type: CalDAV
+  UID: 0B2F3213-BE5F-45EF-9EF5-C8FAD653DAB0
+• QLS 21-22
+  type: CalDAV
+  UID: D812732A-1584-4D71-9404-A6E6D584D43C
+• San Jose Sharks 2021/22 Schedule
+  type: CalDAV
+  UID: 0AD25F91-F36E-446E-9E75-CD73D2CFA41B
+• Calendar
+  type: Exchange
+  UID: 5377D2AB-BEDB-42B1-8D61-B3E0F0611BAB
+• Birthdays
+  type: Exchange
+  UID: E4889B22-59B5-4D98-A9B4-6F72E8E2AF86
+• United States holidays
+  type: Exchange
+  UID: 1172DEEE-FA55-4182-8873-ED0ED8C8E623
