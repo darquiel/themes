@@ -3,9 +3,10 @@
 # First time ever writing in JavaScript
 # Using icalBuddy found here: http://hasseg.org/icalBuddy/
 
+# note use the following command to updsate the current calendar list
+# command: "'ical.widget/icalBuddy' calendars ' > calendarlist.new.txt'"
+
 # This command shows all of your events for today and tomorrow
-# note use the following
-# command to updsate the current calendar list: "'ical.widget/icalBuddy' calendars ' > calendarlist.new.txt'"
 command: "'ical.widget/icalBuddy' -ec 'F7C98D85-3671-4279-88B4-0C9C22416742,145CBC4A-A008-4D7D-94F3-586CC48C1E09,C295E953-FD2F-49C4-8989-DF527A93A7A9' -n -nc -iep 'title,datetime' -ps '| : |' -po 'datetime,title' -tf %H:%M -eed eventsToday 2>devnull"
 
 # Uncomment this command if you want to not show which calendar the events are for
