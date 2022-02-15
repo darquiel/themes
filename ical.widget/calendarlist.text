@@ -26,3 +26,40 @@ asaheim.local
 • San Jose Sharks 2021/22 Schedule
   type: CalDAV
   UID: 4FA0D262-115D-4CB8-98DE-8FA4801D9FDF
+cogitator-mja.local
+• Birthdays
+  type: Birthday
+  UID: D293B79D-CE46-4309-8F11-48DAA3A0507E
+• Siri Suggestions
+  type: Local
+  UID: 49482F5B-EC73-42F3-A0A5-3970DAA01A66
+• Found in Natural Language
+  type: Local
+  UID: DC6F4246-383F-4339-97F5-4BBDFDD7CC3D
+• Reminders
+  type: Local
+  UID: E13D773E-2E50-4F64-BE45-5B22AF2C6410
+• US Holidays
+  type: Subscription
+  UID: 2CD5F62E-8273-4DA8-8B4F-36BD2F2F0CFC
+• Personal
+  type: CalDAV
+  UID: 88213C2A-00E7-4A68-BC91-A842AD282E47
+• Family
+  type: CalDAV
+  UID: C8D2CD8D-083F-4524-80F3-F52E3ACE93E0
+• QLS 21-22
+  type: CalDAV
+  UID: 0765A222-A3E8-40C6-AFB4-AB97DEE2CB51
+• San Jose Sharks 2021/22 Schedule
+  type: CalDAV
+  UID: 00C6DE2D-4429-401E-B286-BFC8B1546F1F
+• mark.andrews@serverobotics.com
+  type: CalDAV
+  UID: 8A344F27-831C-4659-A0D8-3CC21B857CBC
+• Holidays in United States
+  type: CalDAV
+  UID: BB802590-B3DA-4057-9395-B2F5C724EC07
+• Contacts
+  type: CalDAV
+  UID: 72A888DB-CF00-45C0-96E4-E1B22BA41B4F
