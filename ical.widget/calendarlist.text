@@ -1,3 +1,4 @@
+asaheim.local
 • Birthdays
   type: Birthday
   UID: B4756F67-141F-4D58-A6AE-7D1DFD8D6AB9
@@ -9,7 +10,7 @@
   UID: 84C943BA-A55E-41F9-A920-ECC0E27179BB
 • Reminders
   type: Local
-  UID: 9242D9BF-DC13-48AC-9E3D-FE65076388C6
+  UID: 86D36530-9074-4AFE-B076-D061D8D70FC4
 • US Holidays
   type: Subscription
   UID: BB6C3475-3F00-4480-9E5D-2FF2CECD4E13
@@ -25,12 +26,3 @@
 • San Jose Sharks 2021/22 Schedule
   type: CalDAV
   UID: 4FA0D262-115D-4CB8-98DE-8FA4801D9FDF
-• Calendar
-  type: Exchange
-  UID: DA5EB1E5-91AE-43B0-9617-451EA4594FF9
-• Birthdays
-  type: Exchange
-  UID: C295E953-FD2F-49C4-8989-DF527A93A7A9
-• United States holidays
-  type: Exchange
-  UID: 145CBC4A-A008-4D7D-94F3-586CC48C1E09
