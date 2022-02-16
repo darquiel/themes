@@ -71,3 +71,10 @@ asaheim.local
 • Contacts
   type: CalDAV
   UID: 72A888DB-CF00-45C0-96E4-E1B22BA41B4F
+
+:: -=-=-=-=-=-=-=-=-=-=-=- ::
+    Depricated to remove
+:: -=-=-=-=-=-=-=-=-=-=-=- ::
+Depricated removed
+UID: 145CBC4A-A008-4D7D-94F3-586CC48C1E09
+UID: C295E953-FD2F-49C4-8989-DF527A93A7A9

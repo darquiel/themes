@@ -7,7 +7,7 @@
 # command: "'ical.widget/icalBuddy' calendars ' > calendarlist.new.txt'"
 
 # This command shows all of your events for today and tomorrow
-command: "'ical.widget/icalBuddy' -ec 'F7C98D85-3671-4279-88B4-0C9C22416742,145CBC4A-A008-4D7D-94F3-586CC48C1E09,C295E953-FD2F-49C4-8989-DF527A93A7A9' -n -nc -iep 'title,datetime' -ps '| : |' -po 'datetime,title' -tf %H:%M -eed eventsToday 2>devnull"
+command: "'ical.widget/icalBuddy' -ec 'F7C98D85-3671-4279-88B4-0C9C22416742,DC6F4246-383F-4339-97F5-4BBDFDD7CC3D' -n -nc -iep 'title,datetime' -ps '| : |' -po 'datetime,title' -tf %H:%M -eed eventsToday 2>devnull"
 
 # Uncomment this command if you want to not show which calendar the events are for
 #command: "'ical.widget/icalBuddy' -sd -nc -n eventsToday+1 2>/dev/null"
