@@ -1,0 +1,80 @@
+:: -=-=-=-=-=-=-=- ::
+    asaheim.local
+:: -=-=-=-=-=-=-=- ::
+
+asaheim.local
+• Birthdays
+  type: Birthday
+  UID: B4756F67-141F-4D58-A6AE-7D1DFD8D6AB9
+• Found in Natural Language
+  type: Local
+  UID: F7C98D85-3671-4279-88B4-0C9C22416742
+• Siri Suggestions
+  type: Local
+  UID: 84C943BA-A55E-41F9-A920-ECC0E27179BB
+• Reminders
+  type: Local
+  UID: 86D36530-9074-4AFE-B076-D061D8D70FC4
+• US Holidays
+  type: Subscription
+  UID: BB6C3475-3F00-4480-9E5D-2FF2CECD4E13
+• Personal
+  type: CalDAV
+  UID: 266C11C2-44D5-47FD-9C3F-91A7C00B0706
+• Family
+  type: CalDAV
+  UID: 8B791E1C-56FC-4CFF-9D4E-43D3C8849455
+• QLS 21-22
+  type: CalDAV
+  UID: EC60DBCB-61FD-4C9A-9A49-321504094C91
+• San Jose Sharks 2021/22 Schedule
+  type: CalDAV
+  UID: 4FA0D262-115D-4CB8-98DE-8FA4801D9FDF
+
+:: -=-=-=-=-=-=-=-=-=-=- ::
+    cogitator-mja.local
+:: -=-=-=-=-=-=-=-=-=-=- ::
+
+• Birthdays
+  type: Birthday
+  UID: D293B79D-CE46-4309-8F11-48DAA3A0507E
+• Siri Suggestions
+  type: Local
+  UID: 49482F5B-EC73-42F3-A0A5-3970DAA01A66
+• Found in Natural Language
+  type: Local
+  UID: DC6F4246-383F-4339-97F5-4BBDFDD7CC3D
+• Reminders
+  type: Local
+  UID: E13D773E-2E50-4F64-BE45-5B22AF2C6410
+• US Holidays
+  type: Subscription
+  UID: 2CD5F62E-8273-4DA8-8B4F-36BD2F2F0CFC
+• Personal
+  type: CalDAV
+  UID: 88213C2A-00E7-4A68-BC91-A842AD282E47
+• Family
+  type: CalDAV
+  UID: C8D2CD8D-083F-4524-80F3-F52E3ACE93E0
+• QLS 21-22
+  type: CalDAV
+  UID: 0765A222-A3E8-40C6-AFB4-AB97DEE2CB51
+• San Jose Sharks 2021/22 Schedule
+  type: CalDAV
+  UID: 00C6DE2D-4429-401E-B286-BFC8B1546F1F
+• mark.andrews@serverobotics.com
+  type: CalDAV
+  UID: 8A344F27-831C-4659-A0D8-3CC21B857CBC
+• Holidays in United States
+  type: CalDAV
+  UID: BB802590-B3DA-4057-9395-B2F5C724EC07
+• Contacts
+  type: CalDAV
+  UID: 72A888DB-CF00-45C0-96E4-E1B22BA41B4F
+
+:: -=-=-=-=-=-=-=-=-=-=-=- ::
+    Depricated to remove
+:: -=-=-=-=-=-=-=-=-=-=-=- ::
+Depricated removed
+UID: 145CBC4A-A008-4D7D-94F3-586CC48C1E09
+UID: C295E953-FD2F-49C4-8989-DF527A93A7A9

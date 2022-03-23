@@ -3,8 +3,11 @@
 # First time ever writing in JavaScript
 # Using icalBuddy found here: http://hasseg.org/icalBuddy/
 
+# note use the following command to updsate the current calendar list
+# command: "'ical.widget/icalBuddy' calendars ' > calendarlist.new.txt'"
+
 # This command shows all of your events for today and tomorrow
-command: "'ical.widget/icalBuddy' -ec 'Found in Natural Language' -n -nc -iep 'title,datetime' -ps '| : |' -po 'datetime,title' -tf %H:%M -eed eventsToday 2>devnull"
+command: "'ical.widget/icalBuddy' -ec 'F7C98D85-3671-4279-88B4-0C9C22416742,DC6F4246-383F-4339-97F5-4BBDFDD7CC3D,0765A222-A3E8-40C6-AFB4-AB97DEE2CB51,00C6DE2D-4429-401E-B286-BFC8B1546F1F' -n -nc -iep 'title,datetime' -ps '| : |' -po 'datetime,title' -tf %H:%M -eed eventsToday 2>devnull"
 
 # Uncomment this command if you want to not show which calendar the events are for
 #command: "'ical.widget/icalBuddy' -sd -nc -n eventsToday+1 2>/dev/null"
@@ -14,16 +17,16 @@ refreshFrequency: 10000
 # refreshFrequency: 3600000
 
 style: """
-  top: 480px
-  right: 62px
+  top: 435px
+  right: 70px
   color: rgba(#d6d6d6, 0.9)
   font-family: -apple-system
-  
+  font-size: 9pt
+  font-weight: 300
+
   div
     display: block
     text-shadow: 0 0 1px rgba(#000, 0.5)
-    font-size: 10pt
-    font-weight: 300
 """
 
 renderLine: (string) -> """
@@ -37,6 +40,6 @@ update: (output, domEl) ->
   $(domEl).html 'No more Events Today' if output is ""
   for line in lines
     line = line + '                                                        '
-    myline = line.substr(0, 30)
+    myline = line.substr(0, 25)
     $(domEl).append @renderLine(myline)
 
