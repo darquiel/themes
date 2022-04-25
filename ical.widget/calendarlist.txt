@@ -12,9 +12,6 @@ asaheim.local
 • Siri Suggestions
   type: Local
   UID: 84C943BA-A55E-41F9-A920-ECC0E27179BB
-• Reminders
-  type: Local
-  UID: 86D36530-9074-4AFE-B076-D061D8D70FC4
 • US Holidays
   type: Subscription
   UID: BB6C3475-3F00-4480-9E5D-2FF2CECD4E13
@@ -30,6 +27,18 @@ asaheim.local
 • San Jose Sharks 2021/22 Schedule
   type: CalDAV
   UID: 4FA0D262-115D-4CB8-98DE-8FA4801D9FDF
+• mark.andrews@serverobotics.com
+  type: CalDAV
+  UID: 552239BC-1EBC-4706-8E79-05EEA701BB05
+• Holidays in United States
+  type: CalDAV
+  UID: 9D4E6A12-889C-48CA-AE08-81505DF1E444
+• Contacts
+  type: CalDAV
+  UID: 75AE9982-319C-44DD-AE0D-EF1EA789AA6E
+• Demos @Serve, mostly (Press, VIPs, Investors onsite and more)
+  type: CalDAV
+  UID: 520B1930-9E36-48AA-89B6-5655A9742C2F
 
 :: -=-=-=-=-=-=-=-=-=-=- ::
     cogitator-mja.local
