@@ -65,6 +65,9 @@ asaheim.local
 • mark.andrews@serverobotics.com
   type: CalDAV
   UID: 8A344F27-831C-4659-A0D8-3CC21B857CBC
+• Demos @Serve, mostly (Press, VIPs, Investors onsite and more)
+  type: CalDAV
+  UID: 3770543B-69D3-4EBC-9AC2-685DF39AD5F1
 • Holidays in United States
   type: CalDAV
   UID: BB802590-B3DA-4057-9395-B2F5C724EC07
