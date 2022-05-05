@@ -77,7 +77,7 @@ asaheim.local
 • Demos @Serve, mostly (Press, VIPs, Investors onsite and more) [Excluded]
   type: CalDAV
   UID: 3770543B-69D3-4EBC-9AC2-685DF39AD5F1
-• Holidays in United States
+• Holidays in United States [Excluded]
   type: CalDAV
   UID: BB802590-B3DA-4057-9395-B2F5C724EC07
 • Contacts
