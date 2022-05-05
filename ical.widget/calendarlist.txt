@@ -6,10 +6,10 @@ asaheim.local
 • Birthdays
   type: Birthday
   UID: B4756F67-141F-4D58-A6AE-7D1DFD8D6AB9
-• Found in Natural Language
+• Found in Natural Language [Excluded]
   type: Local
   UID: F7C98D85-3671-4279-88B4-0C9C22416742
-• Siri Suggestions
+• Siri Suggestions [Excluded]
   type: Local
   UID: 84C943BA-A55E-41F9-A920-ECC0E27179BB
 • US Holidays
@@ -30,13 +30,13 @@ asaheim.local
 • mark.andrews@serverobotics.com
   type: CalDAV
   UID: 552239BC-1EBC-4706-8E79-05EEA701BB05
-• Holidays in United States
+• Holidays in United States [Excluded]
   type: CalDAV
   UID: 9D4E6A12-889C-48CA-AE08-81505DF1E444
-• Contacts
+• Contacts [Excluded]
   type: CalDAV
   UID: 75AE9982-319C-44DD-AE0D-EF1EA789AA6E
-• Demos @Serve, mostly (Press, VIPs, Investors onsite and more)
+• Demos @Serve, mostly (Press, VIPs, Investors onsite and more) [Excluded]
   type: CalDAV
   UID: 520B1930-9E36-48AA-89B6-5655A9742C2F
 
@@ -44,13 +44,13 @@ asaheim.local
     cogitator-mja.local
 :: -=-=-=-=-=-=-=-=-=-=- ::
 
-• Birthdays
+• Birthdays [Excluded]
   type: Birthday
   UID: D293B79D-CE46-4309-8F11-48DAA3A0507E
-• Siri Suggestions
+• Siri Suggestions [Excluded]
   type: Local
   UID: 49482F5B-EC73-42F3-A0A5-3970DAA01A66
-• Found in Natural Language
+• Found in Natural Language [Excluded]
   type: Local
   UID: DC6F4246-383F-4339-97F5-4BBDFDD7CC3D
 • Reminders
@@ -65,16 +65,16 @@ asaheim.local
 • Family
   type: CalDAV
   UID: C8D2CD8D-083F-4524-80F3-F52E3ACE93E0
-• QLS 21-22
+• QLS 21-22 [Excluded]
   type: CalDAV
   UID: 0765A222-A3E8-40C6-AFB4-AB97DEE2CB51
-• San Jose Sharks 2021/22 Schedule
+• San Jose Sharks 2021/22 Schedule [Excluded]
   type: CalDAV
   UID: 00C6DE2D-4429-401E-B286-BFC8B1546F1F
 • mark.andrews@serverobotics.com
   type: CalDAV
   UID: 8A344F27-831C-4659-A0D8-3CC21B857CBC
-• Demos @Serve, mostly (Press, VIPs, Investors onsite and more)
+• Demos @Serve, mostly (Press, VIPs, Investors onsite and more) [Excluded]
   type: CalDAV
   UID: 3770543B-69D3-4EBC-9AC2-685DF39AD5F1
 • Holidays in United States
@@ -83,10 +83,3 @@ asaheim.local
 • Contacts
   type: CalDAV
   UID: 72A888DB-CF00-45C0-96E4-E1B22BA41B4F
-
-:: -=-=-=-=-=-=-=-=-=-=-=- ::
-    Depricated to remove
-:: -=-=-=-=-=-=-=-=-=-=-=- ::
-Depricated removed
-UID: 145CBC4A-A008-4D7D-94F3-586CC48C1E09
-UID: C295E953-FD2F-49C4-8989-DF527A93A7A9
