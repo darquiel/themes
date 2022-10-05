@@ -27,7 +27,7 @@ style: """
     color: #000
   }
 
-  .github-notifications {
+  .ghn {
     border: 1px solid #333;
     border-radius: 10px;
     padding: 10px;
@@ -41,10 +41,10 @@ style: """
 
   @font-face {
     font-family: 'octicons';
-    src: url('github-notifications.widget/octicons/octicons.eot?#iefix') format('embedded-opentype'),
-         url('github-notifications.widget/octicons/octicons.woff') format('woff'),
-         url('github-notifications.widget/octicons/octicons.ttf') format('truetype'),
-         url('github-notifications.widget/octicons/octicons.svg#octicons') format('svg');
+    src: url('ghn.widget/octicons/octicons.eot?#iefix') format('embedded-opentype'),
+         url('ghn.widget/octicons/octicons.woff') format('woff'),
+         url('ghn.widget/octicons/octicons.ttf') format('truetype'),
+         url('ghn.widget/octicons/octicons.svg#octicons') format('svg');
     font-weight: normal;
     font-style: normal;
   }
@@ -116,7 +116,7 @@ getVisual: (output) ->
     data = JSON.parse output
   catch ex
     return """
-      <div class='github-notifications #{if @enterprise then "enterprise" else "public"}'>
+      <div class='ghn #{if @enterprise then "enterprise" else "public"}'>
         <span>Error Retrieving Notifications!</span>
       </div>
     """
@@ -146,7 +146,7 @@ getVisual: (output) ->
 
   return """
     <a href='https://github.com/serve-robotics/skel/pulls?q=is%3Apr+is%3Aopen+base%3Arelease%2Frover%2F3.32' + @user'>
-      <div class='github-notifications #{if @enterprise then "enterprise" else "public"}'>
+      <div class='ghn #{if @enterprise then "enterprise" else "public"}'>
         #{icons.join('')}
       </div>
     </a>
