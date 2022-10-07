@@ -6,10 +6,10 @@
 
 # Any web image format -- including animated GIFs -- will work.
 
-#command: "echo ./checkpr.widget/resources/ghprstatus.png" # < Set image here.
-command: "/usr/local/bin/pwsh ./Users/mja/Ubersicht/checkpr.widget/check-pr.ps1"
+command: "echo ./checkpr.widget/resources/ghprstatus.png" # < Set image here.
+#command: "/usr/local/bin/pwsh ./Users/mja/Ubersicht/checkpr.widget/check-pr.ps1"
 
-refreshFrequency: 300000 # 5 Minutes
+refreshFrequency: 1000 # 10 seconds
 
 render: (output)-> """
 <img src="./checkpr.widget/resources/ghprstatus.png" style="width:100%">
