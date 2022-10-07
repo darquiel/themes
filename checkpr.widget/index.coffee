@@ -13,7 +13,7 @@ command: "echo ./checkpr.widget/resources/ghprstatus.png" # < Set image here.
 refreshFrequency: 500 # 10 seconds
 
 render: (output)-> """
-<img src="./checkpr.widget/resources/ghprstatus.png" style="width:50%">
+<img src="#{output}" style="width:50%">
 """ #                             ^ Change size here.
 
 style: """
