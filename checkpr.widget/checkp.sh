@@ -1,5 +1,5 @@
 #!/bin/bash
-pushd ~/server/SRC/skel
+pushd ~/serve/SRC/skel
 var_pr=$`gh pr list --search release/rover/3.32`
 popd
 if [ ${#var_pr} = 1 ] 
