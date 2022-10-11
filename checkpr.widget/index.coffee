@@ -8,10 +8,10 @@
 
 command: "'checkpr.widget/checkp.sh'"
 
-refreshFrequency: '10s' # 10 seconds
+refreshFrequency: '2m' # 10 seconds
 
 render: (output)-> """
-<img src="checkpr.widget/resources/ghprstatus.png" style="width:100%">
+<img src="checkpr.widget/resources/status.png" style="width:75%">
 """ #                             ^ Change size here.
 
 style: """
