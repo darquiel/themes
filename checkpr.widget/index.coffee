@@ -8,7 +8,7 @@
 
 command: "'checkpr.widget/checkp.sh'"
 
-refreshFrequency: 10000 # 10 seconds
+refreshFrequency: '10s' # 10 seconds
 
 render: (output)-> """
 <img src="checkpr.widget/resources/ghprstatus.png" style="width:100%">
