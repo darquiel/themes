@@ -1,7 +1,6 @@
 #!/bin/bash
-pushd ~/serve/SRC/skel
-var_pr=$`gh pr list --search base:mja/base` 
-popd
+var_pr=$`/opt/homebrew/bin/gh pr list -R serve-robotics/skel --search base:mja/base` 
+echo $var_pr >> ~/Ubersicht/checkpr.widget/logfile.txt
 if [ ${#var_pr} = 1 ] 
 then 
     rm -f ~/Ubersicht/checkpr.widget/resources/ghprstatus.png
