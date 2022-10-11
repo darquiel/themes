@@ -1,6 +1,6 @@
 #!/bin/bash
 pushd ~/serve/SRC/skel
-var_pr=$`gh pr list --search mja/base` 
+var_pr=$`gh pr list --search base:mja/base` 
 popd
 if [ ${#var_pr} = 1 ] 
 then 
