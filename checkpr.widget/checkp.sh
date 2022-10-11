@@ -1,6 +1,6 @@
 #!/bin/bash
 pushd ~/serve/SRC/skel
-var_pr=$`gh pr list --search release/rover/3.32` 
+var_pr=$`gh pr list --search mja/base` 
 popd ; 
 if [ ${#var_pr} = 1 ] 
     then cp ~/Ubersicht/checkpr.widget/resources/ghprstatus.0a.png ~/Ubersicht/checkpr.widget/resources/ghprstatus.png 
