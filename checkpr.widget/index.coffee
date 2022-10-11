@@ -6,12 +6,12 @@
 
 # Any web image format -- including animated GIFs -- will work.
 
-command: var_pr=$`gh pr list --serach release/rover/3.32` ; if [ ${#var_pr} = 1 ] ;  then cp ~/Ubersicht/checkpr.widget/resources/ghprstatus.0.png ~/Ubersicht/checkpr.widget/resources/ghprstatus.png; else cp -f ~/Ubersicht/checkpr.widget/resources/ghprstatus.1.png ~/Ubersicht/checkpr.widget/resources/ghprstatus.png; fi
+command: "'checkpr.widget/checkp.sh'"
 
 refreshFrequency: 500 # 10 seconds
 
 render: (output)-> """
-<img src="#{output}" style="width:50%">
+<img src="checkpr.widget/resources/ghprstatus.png" style="width:50%">
 """ #                             ^ Change size here.
 
 style: """
