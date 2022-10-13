@@ -11,7 +11,10 @@ command: "'checkpr.2.widget/checkp.sh'"
 refreshFrequency: '2m' # 10 seconds
 
 render: (output)-> """
-<img src="checkpr.2.widget/resources/status.png" style="width:75%">
+<a href='https://github.com/serve-robotics/skel/pulls?q=is%3Apr+is%3Aopen+base%3Arelease%2Frover%2F3.32'>
+<img src="checkpr.widget/resources/status.png" style="width:75%">
+<span class="video_text">Image Text</span>
+</a>
 """ #                             ^ Change size here.
 
 style: """
