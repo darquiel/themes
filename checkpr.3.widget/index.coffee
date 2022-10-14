@@ -17,9 +17,9 @@ render: (output)-> """
 """ #                             ^ Change size here.
 
 style: """
-	position: absolute
-	left: 5px
-	top: 200px
+	position: center
+	right: 5px
+	bottom: 200px
 	color: rgba(#d6d6d6, 0.8)
 	font-family: -apple-system
 	font-size: 10pt
