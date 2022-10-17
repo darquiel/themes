@@ -23,4 +23,5 @@ style: """
 	color: rgba(#d6d6d6, 0.8)
 	font-family: -apple-system
 	font-size: 10pt
+	text-align: center
 """ #    ^ Change placement here.
