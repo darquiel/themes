@@ -12,7 +12,7 @@ refreshFrequency: '2m' # 10 seconds
 
 render: (output)-> """
 <a href='https://github.com/serve-robotics/skel/pulls?q=is%3Apr+is%3Aopen+base%3Arelease%2Frover%2F3.32'>
-<img src="checkpr.widget/resources/status.png" style="width:25%"></a>
+<img src="checkpr.widget/resources/status.png" style="width:20%"></a>
 <repos><p>RBT 3.33</p></repos>
 """ #                             ^ Change size here.
 
@@ -22,6 +22,6 @@ style: """
 	bottom: 25px
 	color: rgba(#d6d6d6, 0.8)
 	font-family: -apple-system
-	font-size: 10pt
+	font-size: 8pt
 	text-align: center
 """ #    ^ Change placement here.
