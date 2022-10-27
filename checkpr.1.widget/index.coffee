@@ -18,7 +18,7 @@ render: (output)-> """
 
 style: """
 	position: absolute
-	right: 0px
+	right: -25px
 	bottom: 12px
 	color: rgba(#d6d6d6, 0.8)
 	font-family: -apple-system
