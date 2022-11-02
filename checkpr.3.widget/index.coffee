@@ -8,7 +8,7 @@
 
 command: "'checkpr.3.widget/checkp.sh'"
 
-refreshFrequency: '30s' # 10 seconds
+refreshFrequency: '1m'
 
 render: (output)-> """
 <a href='https://github.com/serve-robotics/skel/pulls?q=is%3Apr+is%3Aopen+base%3Arelease%2Frover%2F3.32'>
