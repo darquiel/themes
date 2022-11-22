@@ -6,7 +6,7 @@
 
 # Any web image format -- including animated GIFs -- will work.
 
-command: "'checkpr-s.widget/checkp.sh'"
+command: "'checkpr.widget/checkp.sh'"
 
 refreshFrequency: '60000'
 
