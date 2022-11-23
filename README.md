@@ -1,4 +1,4 @@
-# Azriel:Themes:Ubersicht
+# themes:ubersicht
 
 ## Project to track the state of my Mac Themes
 This specific code repos is targeted around the Ubersicht product 
