@@ -7,7 +7,7 @@ This specific code repos is targeted around the Ubersicht product
 > eaxmple: /Users/_bunnyboo_/Documents/Ubersicht
 
 ## There is a screenshot of my current config within this folder as well.
-_desktop1.png_
+![Alt text](desktop1.png?raw=true "Desktop")
 
 Additional appliactions used for themeing.
 * [cDock](http://w0lfschild.github.io/app_cDock.html)
