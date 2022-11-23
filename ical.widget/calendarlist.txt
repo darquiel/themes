@@ -83,3 +83,41 @@ asaheim.local
 • Contacts
   type: CalDAV
   UID: 72A888DB-CF00-45C0-96E4-E1B22BA41B4F
+
+  :: -=-=-=-=-=-=-=-=-=-=- ::
+    andhrimnir.local
+:: -=-=-=-=-=-=-=-=-=-=- ::
+
+• Reminders
+  type: Local
+  UID: 3C8C2A71-84BF-4C87-8EFD-BB4827650D15
+• QLS 22-23
+  type: CalDAV
+  UID: 71A73F29-34ED-4500-A7CE-89A2F204D97E
+• Family
+  type: CalDAV
+  UID: 0B2F3213-BE5F-45EF-9EF5-C8FAD653DAB0
+• Family
+  type: CalDAV
+  UID: 8DA8D039-4B3F-4BDC-8105-445EF5912BDD
+• Contacts
+  type: CalDAV
+  UID: 87BA5410-5542-4276-9DC3-55C18EA1E795
+• Holidays in United States
+  type: CalDAV
+  UID: E61CB6B5-3E4F-42E9-9FB1-B4C700C37099
+• mjandrews@icloud.com
+  type: CalDAV
+  UID: 827E7D9B-F14B-47AC-AACD-F2FE36AEF9BB
+• US Holidays
+  type: Subscription
+  UID: A8D09656-D8B1-4A40-A152-4C34A4329C7C
+• Birthdays
+  type: Birthday
+  UID: 4F2E65DF-465E-48FC-B553-7417547A8785
+• San Jose Sharks - Sharks
+  type: Subscription
+  UID: 0429C072-55BF-4E1A-B4DD-0C9FBC5717AE
+• Personal
+  type: CalDAV
+  UID: 0484ED13-3BE2-4DA0-9474-DD4118BBC63F
