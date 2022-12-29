@@ -3,121 +3,55 @@
 :: -=-=-=-=-=-=-=- ::
 
 asaheim.local
+• Family
+  type: CalDAV
+  UID: 4DB23178-96CB-40D8-AF12-72A7F7BC27E6
+• Reminders
+  type: CalDAV
+  UID: 71550649-E92E-AC74-21AC-E8B6AB8B0A80
+• San Jose Sharks - Sharks
+  UID: 7B46FB6E-A964-46E1-8507-625AC42EC018
 • Birthdays
   type: Birthday
-  UID: B4756F67-141F-4D58-A6AE-7D1DFD8D6AB9
-• Found in Natural Language [Excluded]
-  type: Local
-  UID: F7C98D85-3671-4279-88B4-0C9C22416742
-• Siri Suggestions [Excluded]
-  type: Local
-  UID: 84C943BA-A55E-41F9-A920-ECC0E27179BB
+  UID: F17A9C88-0AD5-4AB4-8228-9B1CAFAD760D
 • US Holidays
   type: Subscription
   UID: BB6C3475-3F00-4480-9E5D-2FF2CECD4E13
+• QLS 22-23
+  type: CalDAV
+  UID: BE7108E8-AA9C-45EA-A958-FA057C80ADB1
 • Personal
   type: CalDAV
   UID: 266C11C2-44D5-47FD-9C3F-91A7C00B0706
 • Family
   type: CalDAV
   UID: 8B791E1C-56FC-4CFF-9D4E-43D3C8849455
-• QLS 21-22
-  type: CalDAV
-  UID: EC60DBCB-61FD-4C9A-9A49-321504094C91
-• San Jose Sharks 2021/22 Schedule
-  type: CalDAV
-  UID: 4FA0D262-115D-4CB8-98DE-8FA4801D9FDF
-• mark.andrews@serverobotics.com
-  type: CalDAV
-  UID: 552239BC-1EBC-4706-8E79-05EEA701BB05
-• Holidays in United States [Excluded]
-  type: CalDAV
-  UID: 9D4E6A12-889C-48CA-AE08-81505DF1E444
-• Contacts [Excluded]
-  type: CalDAV
-  UID: 75AE9982-319C-44DD-AE0D-EF1EA789AA6E
-• Demos @Serve, mostly (Press, VIPs, Investors onsite and more) [Excluded]
-  type: CalDAV
-  UID: 520B1930-9E36-48AA-89B6-5655A9742C2F
-
-:: -=-=-=-=-=-=-=-=-=-=- ::
-    cogitator-mja.local
-:: -=-=-=-=-=-=-=-=-=-=- ::
-
-• Birthdays [Excluded]
-  type: Birthday
-  UID: D293B79D-CE46-4309-8F11-48DAA3A0507E
-• Siri Suggestions [Excluded]
-  type: Local
-  UID: 49482F5B-EC73-42F3-A0A5-3970DAA01A66
-• Found in Natural Language [Excluded]
-  type: Local
-  UID: DC6F4246-383F-4339-97F5-4BBDFDD7CC3D
-• Reminders
-  type: Local
-  UID: E13D773E-2E50-4F64-BE45-5B22AF2C6410
-• US Holidays
-  type: Subscription
-  UID: 2CD5F62E-8273-4DA8-8B4F-36BD2F2F0CFC
-• Personal
-  type: CalDAV
-  UID: 88213C2A-00E7-4A68-BC91-A842AD282E47
-• Family
-  type: CalDAV
-  UID: C8D2CD8D-083F-4524-80F3-F52E3ACE93E0
-• QLS 21-22 [Excluded]
-  type: CalDAV
-  UID: 0765A222-A3E8-40C6-AFB4-AB97DEE2CB51
-• San Jose Sharks 2021/22 Schedule [Excluded]
-  type: CalDAV
-  UID: 00C6DE2D-4429-401E-B286-BFC8B1546F1F
-• mark.andrews@serverobotics.com
-  type: CalDAV
-  UID: 8A344F27-831C-4659-A0D8-3CC21B857CBC
-• Demos @Serve, mostly (Press, VIPs, Investors onsite and more) [Excluded]
-  type: CalDAV
-  UID: 3770543B-69D3-4EBC-9AC2-685DF39AD5F1
-• Holidays in United States [Excluded]
-  type: CalDAV
-  UID: BB802590-B3DA-4057-9395-B2F5C724EC07
-• Contacts
-  type: CalDAV
-  UID: 72A888DB-CF00-45C0-96E4-E1B22BA41B4F
 
   :: -=-=-=-=-=-=-=-=-=-=- ::
     andhrimnir.local
 :: -=-=-=-=-=-=-=-=-=-=- ::
 
+• Family
+  type: CalDAV
+  UID: 4DB23178-96CB-40D8-AF12-72A7F7BC27E6
 • Reminders
-  type: Local
-  UID: 3C8C2A71-84BF-4C87-8EFD-BB4827650D15
-• QLS 22-23
   type: CalDAV
-  UID: 71A73F29-34ED-4500-A7CE-89A2F204D97E
-• Family
-  type: CalDAV
-  UID: 0B2F3213-BE5F-45EF-9EF5-C8FAD653DAB0
-• Family
-  type: CalDAV
-  UID: 8DA8D039-4B3F-4BDC-8105-445EF5912BDD
-• Contacts
-  type: CalDAV
-  UID: 87BA5410-5542-4276-9DC3-55C18EA1E795
-• Holidays in United States
-  type: CalDAV
-  UID: E61CB6B5-3E4F-42E9-9FB1-B4C700C37099
-• mjandrews@icloud.com
-  type: CalDAV
-  UID: 827E7D9B-F14B-47AC-AACD-F2FE36AEF9BB
+  UID: 71550649-E92E-AC74-21AC-E8B6AB8B0A80
 • US Holidays
   type: Subscription
   UID: A8D09656-D8B1-4A40-A152-4C34A4329C7C
+• QLS 22-23
+  type: CalDAV
+  UID: 71A73F29-34ED-4500-A7CE-89A2F204D97E
 • Birthdays
   type: Birthday
   UID: 4F2E65DF-465E-48FC-B553-7417547A8785
-• San Jose Sharks - Sharks
-  type: Subscription
-  UID: 0429C072-55BF-4E1A-B4DD-0C9FBC5717AE
+• Family
+  type: CalDAV
+  UID: 1683F692-7238-4E75-BBC8-A2366C7277E4
 • Personal
   type: CalDAV
   UID: 0484ED13-3BE2-4DA0-9474-DD4118BBC63F
+• San Jose Sharks - Sharks
+  type: Subscription
+  UID: C3F819CB-FB84-4D65-A5AF-8D1E5C0CFF58
