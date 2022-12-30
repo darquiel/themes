@@ -2,7 +2,6 @@
     asaheim.local
 :: -=-=-=-=-=-=-=- ::
 
-asaheim.local
 • Family
   type: CalDAV
   UID: 4DB23178-96CB-40D8-AF12-72A7F7BC27E6
@@ -27,7 +26,7 @@ asaheim.local
   type: CalDAV
   UID: 8B791E1C-56FC-4CFF-9D4E-43D3C8849455
 
-  :: -=-=-=-=-=-=-=-=-=-=- ::
+:: -=-=-=-=-=-=-=-=-=-=- ::
     andhrimnir.local
 :: -=-=-=-=-=-=-=-=-=-=- ::
 

@@ -6,7 +6,7 @@
 # command: "'ical.widget/icalBuddy' calendars ' > calendarlist.new.txt'"
 
 # This command shows all of your events for today and tomorrow
-command: "'ical.widget/icalBuddy' -ec '71550649-E92E-AC74-21AC-E8B6AB8B0A80,71A73F29-34ED-4500-A7CE-89A2F204D97E,71550649-E92E-AC74-21AC-E8B6AB8B0A80,BE7108E8-AA9C-45EA-A958-FA057C80ADB1' -n -nc -iep 'title,datetime' -ps '| : |' -po 'datetime,title' -tf %H:%M -eed eventsToday 2>devnull"
+command: "'ical.widget/icalBuddy' -ec '71550649-E92E-AC74-21AC-E8B6AB8B0A80,71A73F29-34ED-4500-A7CE-89A2F204D97E,BE7108E8-AA9C-45EA-A958-FA057C80ADB1' -n -nc -iep 'title,datetime' -ps '| : |' -po 'datetime,title' -tf %H:%M -eed eventsToday 2>devnull"
 
 # the refresh frequency is 1 hour
 refreshFrequency: 10000
